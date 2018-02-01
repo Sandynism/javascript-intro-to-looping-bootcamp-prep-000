@@ -16,11 +16,11 @@ function whileLoop(n) {
   return('done')
 }
 
-function doWhileLoop(condition) {
+function doWhileLoop(array) {
   do {
-      condition.pop()
-  } while (condition.length > 0 && maybeTrue())
-  return condition
+      array.pop()
+  } while (array.length > 0 && maybeTrue())
+  return array
 }
 
 function maybeTrue() {
